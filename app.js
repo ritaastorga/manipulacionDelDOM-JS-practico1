@@ -19,5 +19,13 @@
 // const aceitunas = document.querySelector(".topping.fondoNaranja");
 // console.log(typeof aceitunas);
 
-const primerTopping = document.querySelector(".topping");
-console.log(primerTopping);
+// const primerTopping = document.querySelector(".topping");
+// console.log(primerTopping);
+
+// const primerTopping = document.querySelector(".topping");
+// primerTopping.style.backgroundColor = "blue";
+// primerTopping.style.color = "#6dff";
+// primerTopping.style.textTransform = "uppercase";
+
+const listaDeToppings = document.getElementById("listaToppings");
+console.log(listaDeToppings);
