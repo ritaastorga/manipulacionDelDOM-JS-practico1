@@ -42,4 +42,4 @@
 // titulo.innerText = "Mis topping favoritos";
 
 const enlace = document.getElementsByTagName("a");
-console.log(enlace[0].getAttribute("href"));
+console.log(enlace[0].setAttribute("href", "https://www.freecodecamp.org"));
