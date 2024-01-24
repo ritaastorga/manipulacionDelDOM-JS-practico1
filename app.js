@@ -38,5 +38,8 @@
 // console.log("> textContent");
 // console.log(listaDeToppings.textContent);
 
-const titulo = document.getElementById("titulo");
+// const titulo = document.getElementById("titulo");
 // titulo.innerText = "Mis topping favoritos";
+
+const enlace = document.getElementsByTagName("a");
+console.log(enlace[0].getAttribute("href"));
