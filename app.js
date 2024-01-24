@@ -27,13 +27,16 @@
 // primerTopping.style.color = "#6dff";
 // primerTopping.style.textTransform = "uppercase";
 
-const listaDeToppings = document.getElementById("listaToppings");
+// const listaDeToppings = document.getElementById("listaToppings");
 
-console.log("> innerText");
-console.log(listaDeToppings.innerText);
+// console.log("> innerText");
+// console.log(listaDeToppings.innerText);
 
-console.log("> innerHTML");
-console.log(listaDeToppings.innerHTML);
+// console.log("> innerHTML");
+// console.log(listaDeToppings.innerHTML);
 
-console.log("> textContent");
-console.log(listaDeToppings.textContent);
+// console.log("> textContent");
+// console.log(listaDeToppings.textContent);
+
+const titulo = document.getElementById("titulo");
+// titulo.innerText = "Mis topping favoritos";
