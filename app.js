@@ -28,4 +28,12 @@
 // primerTopping.style.textTransform = "uppercase";
 
 const listaDeToppings = document.getElementById("listaToppings");
-console.log(listaDeToppings);
+
+console.log("> innerText");
+console.log(listaDeToppings.innerText);
+
+console.log("> innerHTML");
+console.log(listaDeToppings.innerHTML);
+
+console.log("> textContent");
+console.log(listaDeToppings.textContent);
