@@ -46,6 +46,6 @@
 
 const primerTopping = document.querySelector(".topping");
 
-primerTopping.classList.add("textoVerde");
+console.log(primerTopping.classList.contains("fondoMarron"));
 
 console.log(primerTopping.classList);
