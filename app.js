@@ -44,8 +44,14 @@
 // const enlace = document.getElementsByTagName("a");
 // console.log(enlace[0].setAttribute("href", "https://www.freecodecamp.org"));
 
-const primerTopping = document.querySelector(".topping");
+// const primerTopping = document.querySelector(".topping");
 
-primerTopping.classList.remove("topping");
+// console.log(primerTopping.classList);
 
-console.log(primerTopping.classList);
+const listaDeToppings = document.getElementById("listaToppings");
+
+const toppingNuevo = document.createElement("li");
+toppingNuevo.classList.add("topping", "fondoMarron");
+toppingNuevo.innerText = "Queso Extra";
+
+listaDeToppings.append(toppingNuevo);
