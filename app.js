@@ -41,5 +41,11 @@
 // const titulo = document.getElementById("titulo");
 // titulo.innerText = "Mis topping favoritos";
 
-const enlace = document.getElementsByTagName("a");
-console.log(enlace[0].setAttribute("href", "https://www.freecodecamp.org"));
+// const enlace = document.getElementsByTagName("a");
+// console.log(enlace[0].setAttribute("href", "https://www.freecodecamp.org"));
+
+const primerTopping = document.querySelector(".topping");
+
+primerTopping.classList.add("textoVerde");
+
+console.log(primerTopping.classList);
