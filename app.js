@@ -46,6 +46,6 @@
 
 const primerTopping = document.querySelector(".topping");
 
-console.log(primerTopping.classList.contains("fondoMarron"));
+primerTopping.classList.remove("topping");
 
 console.log(primerTopping.classList);
