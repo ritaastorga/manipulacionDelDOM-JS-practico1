@@ -55,3 +55,5 @@ toppingNuevo.classList.add("topping", "fondoMarron");
 toppingNuevo.innerText = "Queso Extra";
 
 listaDeToppings.append(toppingNuevo);
+
+toppingNuevo.remove();
