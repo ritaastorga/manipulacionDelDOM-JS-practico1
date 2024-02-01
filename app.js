@@ -48,16 +48,26 @@
 
 // console.log(primerTopping.classList);
 
-const listaDeToppings = document.getElementById("listaToppings");
+// const listaDeToppings = document.getElementById("listaToppings");
 
-const toppingNuevo = document.createElement("li");
-toppingNuevo.classList.add("topping", "fondoMarron");
-toppingNuevo.innerText = "Queso Extra";
+// const toppingNuevo = document.createElement("li");
+// toppingNuevo.classList.add("topping", "fondoMarron");
+// toppingNuevo.innerText = "Queso Extra";
 
-listaDeToppings.appendChild(toppingNuevo);
+// listaDeToppings.appendChild(toppingNuevo);
 
 // Ejemplos de Event Handler
 
-function mostrarClic() {
-  console.log("clic");
+// function mostrarClic() {
+//   console.log("clic");
+// }
+
+//Ejemplo de addEventListener
+
+const toppings = document.getElementsByClassName("topping");
+
+for (const topping of toppings) {
+  topping.addEventListener("click", (e) => {
+    console.log(e.target.innerText);
+  });
 }
