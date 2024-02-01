@@ -54,6 +54,10 @@ const toppingNuevo = document.createElement("li");
 toppingNuevo.classList.add("topping", "fondoMarron");
 toppingNuevo.innerText = "Queso Extra";
 
-listaDeToppings.append(toppingNuevo);
+listaDeToppings.appendChild(toppingNuevo);
 
-toppingNuevo.remove();
+// Ejemplos de Event Handler
+
+function mostrarClic() {
+  console.log("clic");
+}
